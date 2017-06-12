@@ -35,19 +35,19 @@
  
   <property>
     <name>freeipa.server.hostname</name>
-    <value>sandbox.hortonworks.com</value>
+    <value>c7001.ambari.apache.org</value>
     <description>fully qualified name of server</description>
  </property>
  
   <property>
     <name>freeipa.server.domain</name>
-    <value>hortonworks.com</value>
+    <value>ambari.apache.org</value>
     <description>domain name</description>
  </property>
  
  <property>
     <name>freeipa.server.realm</name>
-    <value>HORTONWORKS.COM</value>
+    <value>AMBARI.APACHE.ORG</value>
     <description>realm name</description>
  </property>
 
@@ -59,7 +59,7 @@
   
   <property>
     <name>freeipa.server.dns.forwarder</name>
-    <value>8.8.8.8</value>
+    <value>202.102.128.68</value>
     <description>DNS option: DNS forwarder</description>
  </property>
  
