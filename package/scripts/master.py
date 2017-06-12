@@ -20,7 +20,7 @@ class Master(Script):
         cmd = cmd + ' --setup-dns'
         cmd = cmd + ' --forwarder=' + params.dns_forwarder
     cmd = cmd + ' --unattended --debug'
-    cmd = cmd + ' >> /var/log/freeipa-stdout.log'
+    # cmd = cmd + ' >> /var/log/freeipa-stdout.log'
     
     #ipa-server-install --hostname=sandbox.hortonworks.com --domain=hortonworks.com --realm=HORTONWORKS.COM --ds-password=hortonworks --master-password=hortonworks --admin-password=hortonworks --setup-dns --forwarder=8.8.8.8 --unattended
     Execute(cmd)
